@@ -20,6 +20,16 @@ numbers = (11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
 print(f"Set min value: {min(numbers)}")  # 11
 
 
+print("\n--- min() with key ---")
+products = [
+    {"name": "A", "price": 120},
+    {"name": "B", "price": 80},
+    {"name": "C", "price": 150},
+]
+
+cheapest = min(products, key=lambda x: x["price"])
+print(cheapest)
+
 # ==========================================
 # max() Function
 # Syntax: min(arg1, arg2, arg3, ...) or min(iterable)
