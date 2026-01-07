@@ -2,6 +2,7 @@
 # min() Function
 # Syntax: min(arg1, arg2, arg3, ...) or min(iterable)
 # Return the smallest item in an iterable or the smallest of two or more arguments.
+# Ref: https://docs.python.org/3/library/functions.html#min
 # ==========================================
 
 print("--- min() Function ---")
@@ -34,6 +35,7 @@ print(cheapest)
 # max() Function
 # Syntax: min(arg1, arg2, arg3, ...) or min(iterable)
 # Return the largest item in an iterable or the largest of two or more arguments.
+# Ref: https://docs.python.org/3/library/functions.html#max
 # ==========================================
 
 print("--- max() Function ---")
