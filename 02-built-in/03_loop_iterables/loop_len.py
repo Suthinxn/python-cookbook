@@ -48,7 +48,7 @@ print("--- 2. Check feature before train ---")
 sample = {
     "age": 21,
     "height": 170,
-    # "weight": 65
+    "weight": 65
 }
 
 if len(sample) != 3:
