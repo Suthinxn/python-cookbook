@@ -44,7 +44,7 @@ if len(response["data"]) == 0:
 else:
     print(f"Received {len(response['data'])} records")
 
-print("--- 2. Check feature before train ---")
+print("\n--- 2. Check feature before train ---")
 sample = {
     "age": 21,
     "height": 170,
