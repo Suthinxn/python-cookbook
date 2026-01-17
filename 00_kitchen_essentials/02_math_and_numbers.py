@@ -1,0 +1,7 @@
+# abs()
+# sum()
+# min()
+# max()
+# round()
+# pow()
+# divmod()
