@@ -5,6 +5,7 @@ print("\n--- Number Construction ---")
 
 print("\n int() Function")
 # Syntax: int(string, base=10)
+# Syntax: int(string, /, base=10)
 # Ref: https://docs.python.org/3/library/functions.html#int
 print(int(123.45))
 print(int("555"))
